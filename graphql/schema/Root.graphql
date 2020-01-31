@@ -1,0 +1,19 @@
+type Query {
+  _dummy: String @deprecated
+}
+
+type Mutation {
+  _dummy: String @deprecated
+}
+
+type Subscription {
+  _dummy: DummySubscriptionPayload @deprecated
+}
+
+type DummySubscriptionPayload {
+  dummy: String
+}
+
+enum Dummy {
+  DUMMY
+}

@@ -1,0 +1,14 @@
+extend type Query {
+  me: User
+}
+
+type User {
+  id: ID!
+  name: String
+  car: Vehicle
+}
+
+type Vehicle {
+  id: ID!
+  plateNumber: String!
+}
