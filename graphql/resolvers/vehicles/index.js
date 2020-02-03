@@ -1,6 +1,6 @@
 module.exports = {
   Vehicle: {
-    id: () => 1,
-    plateNumber: () => '123123',
+    id: ({ id }) => id,
+    plateNumber: ({ plateNumber }) => plateNumber,
   },
 }

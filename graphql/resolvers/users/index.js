@@ -1,9 +1,7 @@
 module.exports = {
   User: {
-    id: () => 1,
-    name: () => 'William',
-    car: () => {
-      return {}
-    },
+    id: ({ id }) => id,
+    name: ({ name }) => name,
+    car: ({ car }) => car,
   },
 }
